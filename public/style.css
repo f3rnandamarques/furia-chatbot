@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('./bg-logo.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.container {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: 800px;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#chat-box {
+  border: 1px solid #888;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  height: 200px;
+  padding: 10px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+}
+
+#user-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffca2c;
+}
+
+.chat-buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+#fan-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+#fan-form input,
+#fan-form button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  
+}
+
+#fan-form button {
+  grid-column: span 2;
+  background-color: #ffc107;
+  color: black;
+  cursor: pointer;
+}
+
+#fan-form button:hover {
+  background-color: #ffca2c;
+}
